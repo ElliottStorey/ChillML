@@ -1,0 +1,5 @@
+[project]
+name = "chillml"
+version = "1.0.0"
+description = "A sample Python project"
+readme = "README.md"

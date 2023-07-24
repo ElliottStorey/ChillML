@@ -1,1 +1,2 @@
+from .binary_cross_entropy import BinaryCrossEntropy
 from .mean_squared_error import MeanSquaredError

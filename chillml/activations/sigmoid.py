@@ -5,4 +5,4 @@ class Sigmoid:
         return 1 / (1 + np.exp(-input))
     
     def calculate_derivative(input):
-        return calculate(input) * (1 - calculate(input))
+        return Sigmoid.calculate(input) * (1 - Sigmoid.calculate(input))

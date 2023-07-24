@@ -2,8 +2,8 @@ import numpy as np
 
 class FullyConnected:
     def __init__(self, input_size, output_size):
-        self.weights = np.random.rand(input_size, output_size) - 0.5
-        self.bias = np.random.rand(1, output_size) - 0.5
+        self.weights = np.zeros((input_size, output_size))
+        self.bias = np.zeros((1, output_size))
 
     def forward(self, input):
         self.input = input

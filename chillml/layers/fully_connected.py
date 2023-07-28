@@ -2,7 +2,7 @@ import numpy as np
 
 class FullyConnected:
     def __init__(self, input_size, output_size):
-        self.weights = np.zeros((input_size, output_size))
+        self.weights = np.random.randn(input_size, output_size)
         self.bias = np.zeros((1, output_size))
 
     def forward(self, input):
